@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+    <head>
+        <title>
+             Inscription - Licence Informatique - UNC
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+    <body>
+        <h1> Candidater à la Licence Informatique</h1>
+        <form>
+            <label for="nom">Entrez votre nom :</label>
+            <input type="texte" name="nom" />
+            <br>
+            <label for="prenom">Entrez votre prénom :</label>
+            <input type="texte" name="prenom" />
+            <br>
+            <label for="date de naissance">Entrez votre date de naissance :</label>
+            <input type="date" name="date de naissance" />
+            <br>
+            <label for="telephone">Entrez votre téléphone :</label>
+            <input type="tel" name="telephone" maxlength="6"/>
+            <br>
+            <label for="trec5"> Trec5 (5 semestres) </label>
+            <input type="radio" name="trec"/>
+            <label for="trec5"> Trec7 (7 semestres) </label>
+            <input type="radio" name="trec"/>
+            <br>
+            <label for="motivation">Pourquoi êtes-vous motivez ?&nbsp;</label>
+            <textarea id="motivation" name="motivation" rows="5" cols="33"></textarea>
+            <br>
+            <label for="lycee">Quel est votre établissement d'origine ?</label>
+            <select>
+                <option value="">--Veuillez choisir un lycée--</option>
+                <option value="Dick Ukeiwé" >Lycée Dick Ukeiwé</option>
+                <option value=" Apollinaire ANOVA" >Lycée  Apollinaire ANOVA</option>
+                <option value="Jules Garnier" >Lycée Jules Garnier</option>
+                <option value="Marcellin Champagnat" >Lycée Marcellin Champagnat</option>
+
+            </select>
+            <br>
+            <label for="newsletter">Je souhaite recevoir la newsletter de la formation</label>
+            <input type="checkbox" name="newsletter" />
+            <br>
+            <label for="demande">Envoyer ma demande</label>
+            <input type="submit"/>
+        </form>
+        <br>
+        <a href="index.html">Revenir à l'accueil</a>
+    </body>
+</html>
