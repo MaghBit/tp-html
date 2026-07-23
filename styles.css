@@ -7,3 +7,119 @@
 .question{
     font-weight: bolder;
 }
+
+body {
+    background-color:cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+}
+
+h1 {
+    color:  #1F4E79;
+    font-size: x-large;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+img {
+    text-align: center;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:goldenrod;
+}
+
+
+
+footer{
+    background-color:#1F4E79 ;
+    color:aliceblue;
+    text-align: center;
+    padding: 1em;
+    border-radius: 30px;
+}
+
+nav ul li{
+    -webkit-text-fill-color:aliceblue;
+    text-align: center;
+    display: inline-block;
+    padding: 1em;
+    transition: font-size 0.5s ease;
+}
+
+nav{
+    background-color: #1F4E79;
+    border-radius: 30px;
+}
+
+nav ul li:hover{
+    /* regrouper avec le menu et aligner les mots*/
+    font-size: 22px;
+    transition: font-size 1s ease;
+    display : inline-block;
+    padding : 1em;
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+div {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#competence{
+    border: solid #1F4E79;
+}
+
+section ol{
+    font-size: 16px;
+    transition: font-size 0.3s ease; 
+}
+
+section ol:hover{
+    background-color: #1F4E79;
+    transition: font-size 0.3s ease;
+}
+
+#deboucher {
+    border: solid #1F4E79;
+}
+
+th, td{
+padding : 1em;
+}
+
+table,th,td{
+border: 2px solid black;
+border-collapse: collapse;
+
+}
+
+table{
+margin : 15px auto;
+text-align : left;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
